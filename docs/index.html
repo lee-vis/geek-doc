@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>docsify文档</title>
+  <title>geek帮助文档</title>
 
   <!-- 解除其他平台的防盗链 -->
   <meta name="referrer" content="never">
@@ -10,11 +10,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <link rel="stylesheet" href="style/vue.css">
   <link rel="stylesheet" type="text/css" href="style/myStyle.css"/>
 
   <!-- alert -->
-  <link rel="stylesheet" href="//cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css" type='text/css' media='all' />
+  <link rel="stylesheet" href="style/sweetalert.min.css" type='text/css' media='all' />
 
 </head>
 
@@ -25,8 +25,8 @@
   <script>
     window.$docsify = {
       el: '#app',
-      name: '编写docsify文档',
-      repo: 'https://github.com/mochazi/docsify-demo',
+      name: 'Geek',
+      repo: 'https://github.com/lee-vis/geek-doc',
       loadNavbar: true, //开启导航栏
       coverpage: true,  //开启封面
       loadSidebar: true,//开启侧边栏
@@ -56,7 +56,7 @@
 
       footer: {
         copy: 'Copyright &copy; 2021 💖 </span>',
-        auth: ' <strong>-相依-</strong>',
+        auth: ' <strong>-lee.vis-</strong>',
         pre: '<hr/>',
         style: 'text-align: center;',
       },
@@ -74,39 +74,40 @@
     }
   </script>
 
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- <script src="style/docsify.min.js"></script> -->
+  <script src="style/docsify.js"></script>
 
   <!-- docsify表情包 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="style/emoji.min.js"></script>
   
   <!-- 复制代码到剪切板 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="style/docsify-copy-code"></script>
 
   <!-- 搜索功能 -->
-  <script src="//cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
+  <script src="style/search.min.js"></script>
 
   <!-- C++、Java、python、bash等等语法高亮 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-cpp.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-c.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-css.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-powershell.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-sql.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-properties.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/matlab.min.js"></script>
+  <script src="style/prism-bash.min.js"></script>
+  <script src="style/prism-java.min.js"></script>
+  <script src="style/prism-python.min.js"></script>
+  <script src="style/prism-cpp.min.js"></script>
+  <script src="style/prism-c.min.js"></script>
+  <script src="style/prism-javascript.min.js"></script>
+  <script src="style/prism-css.min.js"></script>
+  <script src="style/prism-powershell.min.js"></script>
+  <script src="style/prism-sql.min.js"></script>
+  <script src="style/prism-yaml.min.js"></script>
+  <script src="style/prism-properties.min.js"></script>
+  <!-- <script src="style/matlab.min.js"></script> -->
   
   <!-- CDN files for docsify-katex -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <script src="style/docsify-katex.js"></script>
   
   <!-- 文档页脚增强 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh/dist/docsify-footer.min.js"></script>
+  <script src="style/docsify-footer.min.js"></script>
   
   <!-- 复制提醒 -->
-  <script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
+  <script src="style/sweetalert.min.js"></script>
   <script>
     document.body.oncopy = function () { 
       swal("复制成功 🎉", 
@@ -122,7 +123,7 @@
   </script>
   
   <!-- 访问量统计 -->
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
             
 
   <!-- 置顶插件 -->
@@ -133,10 +134,10 @@
   </script>
 
   <!-- Markdown 引用样式美化 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
+  <script src="style/docsify-plugin-flexible-alerts.min.js"></script>
 
   <!-- 图片缩放 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.js"></script>
+  <script src="style/zoom-image.js"></script>
 
 
 </body>
