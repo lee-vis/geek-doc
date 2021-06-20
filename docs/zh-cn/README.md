@@ -1,6 +1,6 @@
 1. 在线阅读
 
--  **[国内优先 Gitee 在线阅读](https://mochazi.gitee.io/docsify-demo)** | [Gitee 仓库地址](https://gitee.com/mochazi/docsify-demo)
+-  **[国内优先 Gitee 在线阅读](https://lee-vis.gitee.io/geek-doc)** | [Gitee 仓库地址](https://gitee.com/lee-vis/geek-doc)
 -  **[国外优先 GitHub 在线阅读](https://lee-vis.github.io/geek-doc)** | [GitHub 仓库地址](https://github.com/lee-vis/geek-doc)
 
 2. 框架整体介绍
