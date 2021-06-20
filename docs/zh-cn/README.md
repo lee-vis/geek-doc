@@ -7,7 +7,7 @@
 
    框架示意图：
    
-   ![image-20210527200918139](../style/framework.png)
+   ![framework](../style/framework.png)
    
    具体介绍：
 
