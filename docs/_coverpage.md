@@ -16,8 +16,8 @@
 
 如果本文能为您得到帮助，请给予支持！
 
-[![stars](https://badgen.net/github/stars/lee-vis/geek-doc?color=4ab8a1)](https://github.com/lee-vis/geek-doc)
-[![watchers](https://badgen.net/github/watchers/lee-vis/geek-doc?color=4ab8a1)](https://github.com/lee-vis/geek-doc)
+[![stars](https://badgen.net/github/stars/lee-vis/geek-doc)](https://github.com/lee-vis/geek-doc)
+[![watchers](https://badgen.net/github/watchers/lee-vis/geek-doc?color=blue)](https://github.com/lee-vis/geek-doc)
 ![](https://img.shields.io/badge/%E6%91%B8%E9%B1%BC-%E7%A8%8B%E5%BA%8F%E5%91%98-green)
 
 [GitHub](https://github.com/lee-vis/geek-doc)
